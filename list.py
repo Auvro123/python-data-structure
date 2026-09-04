@@ -1,4 +1,8 @@
-fruits=["apple", "banana", "cherry", "orange", "kiwi",  "mango", "grapes","pineapple","watermelon"]
+fruits=["orange", "apple", "banana", "cherry",  "kiwi",  "mango", "grapes","pineapple","watermelon"]
 
-fruits.append("blueberry")
+fruits.remove("watermelon")
+print(fruits)
+fruits.insert(4, "mango")
+print(fruits)
+fruits.sort()
 print(fruits)
